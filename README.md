@@ -6,7 +6,7 @@
 > 5. Xong.
 
 ## Lưu ý
-> - Import các asset vô dự án thì nhớ kéo vô trong thư mục ImportedAssets.
+> - Import các asset vô dự án thì nhớ kéo vô trong thư mục ImportedAssets. (Ưu tiên đồ họa low poly - nhẹ)
 > - Dùng tài nguyên nào từ imported asset thì kéo tài nguyên nớ ra khỏi imported rồi bỏ vô trong các thư mục của dự án (loại tài nguyên ~ tên thư mục. Nếu chưa có tên thư mục phù hợp thì tạo thêm).
 > - Nếu các imported asset cần cho các thành viên khác tham khảo thì viết tên tài nguyên vô file /Asset/References.txt.
 

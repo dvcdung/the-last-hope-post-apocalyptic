@@ -1,9 +1,0 @@
-## Environment:
-> Sky: Fantasy Skybox FREE
-> Ground: Yughues Free Ground Materials,
-> Dead trees: AshMoor
-> vegetation environment: Low Poly Vegetation Kit Lite
-
-## Models
-#### Character
-> Test: Modular First Person Controller <No need to download/ Using>

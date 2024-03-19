@@ -11,6 +11,15 @@
 > - Nếu các imported asset cần cho các thành viên khác tham khảo thì viết tên tài nguyên vô file /Asset/References.txt.
 
 ## Work flow
-> - Mỗi người tạo một nhánh riêng trên repo.
-> - Phát triển tính năng rồi đẩy lên nhánh riêng của mình (Hoàn thành thì mới đẩy lên).
-> - Hoàn thành xong thì tạo yêu cầu pull (pull requests) để duyệt rồi merge sau, chớ không tự merge vô main branch.
+> - Mỗi người tạo một nhánh riêng trên repo. Phát triển tính năng rồi đẩy lên nhánh riêng của mình (Hoàn thành thì mới đẩy lên):
+>     - git checkout -b feature/{name}       : Tạo nhánh mới.
+>     - Thực hiện thay đổi ... sau đó add, commit.
+>     - git push -u origin feature/{name}    : Tự động tạo nhánh mới trên repo và đồng thời đẩy data lên nhánh mới.
+> - Hoàn thành 1 tính năng thì tạo pull request trên repo:
+>     - Bấm vô tab Pull requests trên repo.
+>     - Chọn New pull request.
+>     - Chọn base: Nhánh muốn merge, compare: nhánh tính năng của thành viên.
+>     - Chọn Create pull request.
+>     - Nhập tiêu đề. Ví dụ: "Add respawn feature".
+>     - Chọn Create pull request.
+>     - Chờ duyệt (Không tự merge)

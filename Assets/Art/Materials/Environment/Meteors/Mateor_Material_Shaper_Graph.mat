@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Shader Graphs_ColorExample
+  m_Name: Mateor_Material_Shaper_Graph
   m_Shader: {fileID: -6465566751694194690, guid: bf016f3ddc7f7a545b0c0dd4e8b10a0d, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -29,7 +29,7 @@ Material:
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
+  m_CustomRenderQueue: 2978
   stringTagMap: {}
   disabledShaderPasses: []
   m_LockedProperties: 
@@ -43,14 +43,14 @@ Material:
     m_Ints: []
     m_Floats:
     - _BUILTIN_QueueControl: 0
-    - _BUILTIN_QueueOffset: 0
-    - _Metallic: 0.41
-    - _NormalStrength: -6.41
-    - _Smoothness: 0.42
-    - _VoronoiDissolve: 2
-    - _VoronoiScale: 5
+    - _BUILTIN_QueueOffset: -22
+    - _Metallic: 1
+    - _NormalStrength: 0
+    - _Smoothness: 0.1
+    - _VoronoiDissolve: 3.57
+    - _VoronoiScale: 11.01
     m_Colors:
-    - _MainColor: {r: 0.8113208, g: 0, b: 0, a: 0}
-    - _VoronoiColor: {r: 1, g: 0.54140127, b: 0, a: 0}
+    - _MainColor: {r: 0.16037738, g: 0.086499974, b: 0.04463333, a: 1}
+    - _VoronoiColor: {r: 0.03571427, g: 1, b: 0, a: 0}
     - _VoronoiSpeed: {r: 0.1, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []

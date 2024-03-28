@@ -71,7 +71,7 @@ public class monster_ctrl : MonoBehaviour
 		if (HP <= 0)
 		{
 			die = true;
-			anim.SetInteger("moving", 100);
+			StartCoroutine(Die());
 		}
 
 		if (!die)
@@ -167,10 +167,19 @@ public class monster_ctrl : MonoBehaviour
 			yield return null;
 		}
 
-		if (distance < 30f) {
+		if (distance < 30f)
+		{
 			anim.SetInteger("moving", 0);
 		}
 
 		moving = false;
+	}
+
+	IEnumerator Die()
+	{
+
+		anim.SetInteger("moving", 100);
+		yield return new WaitForSeconds(5f);
+		Destroy(gameObject);
 	}
 }
